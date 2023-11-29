@@ -25,3 +25,6 @@
   - 同じ値を持つ要素が複数存在しても構いません.
 
 - jsファイルに`setModal('your-modal-name');`を記述する.
+
+## 使用例 (sampleディレクトリ内)
+[github.io](https://pisces2336.github.io/vanilla-js-modal/sample/)
