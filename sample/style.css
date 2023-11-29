@@ -1,0 +1,25 @@
+.sample_open {
+  display: block;
+  margin: 100px auto;
+  font-size: 36px;
+}
+
+.sample_content {
+  position: relative;
+  padding: 50px 30px 30px;
+}
+
+.sample_close_right_top {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.sample_close {
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+}

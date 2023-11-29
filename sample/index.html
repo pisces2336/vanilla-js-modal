@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample</title>
+  <link rel="stylesheet" href="../modal.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <button class="sample_open" data-modal-open="sampleModal">モーダルを開く</button>
+
+  <div class="modal_wrapper" data-modal-name="sampleModal">
+    <div class="modal_overlay" data-modal-close="sampleModal"></div>
+    <div class="modal_content">
+      <!-- ↓ 任意 ↓ -->
+      <div class="sample_content">
+        <button class="sample_close_right_top" data-modal-close="sampleModal">X</button>
+        <h1>モーダルコンテンツ</h1>
+        <button class="sample_close" data-modal-close="sampleModal">閉じる</button>
+      </div>
+      <!-- ↑ 任意 ↑ -->
+    </div>
+  </div>
+
+  <script src="../modal.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

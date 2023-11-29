@@ -1,0 +1,1 @@
+setModal('sampleModal');
